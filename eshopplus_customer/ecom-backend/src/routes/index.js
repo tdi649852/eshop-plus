@@ -8,6 +8,7 @@ const cartRoutes = require('./cartRoutes');
 const wishlistRoutes = require('./wishlistRoutes');
 const orderRoutes = require('./orderRoutes');
 const addressRoutes = require('./addressRoutes');
+const advtezRoutes = require('./advtezRoutes');
 
 const router = express.Router();
 
@@ -20,6 +21,9 @@ router.use('/cart', cartRoutes);
 router.use('/wishlist', wishlistRoutes);
 router.use('/orders', orderRoutes);
 router.use('/addresses', addressRoutes);
+
+// Advtez marketplace routes (extended features)
+router.use('/', advtezRoutes);
 
 module.exports = router;
 
