@@ -1,0 +1,2 @@
+E:/ADVTEZ/eshopplus_customer/android/app/.cxx/Debug/25165ln5/x86_64/CMakeFiles/edit_cache.dir
+E:/ADVTEZ/eshopplus_customer/android/app/.cxx/Debug/25165ln5/x86_64/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,51 @@
+{
+  "error": false,
+  "message": "Favorites retrieved successfully",
+  "language_message_key": "favorites_retrieved_successfully",
+  "total": "3",
+  "data": [
+    {
+      "id": 1,
+      "user_id": 101,
+      "product_id": 1012,
+      "product_name": "Velvet Armchair with Wood Legs",
+      "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1012.jpg",
+      "price": "299.00",
+      "special_price": "249.00",
+      "rating": "4.5",
+      "stock": 50,
+      "seller_id": 115,
+      "seller_name": "Premium Furniture Store",
+      "created_at": "2024-01-10 00:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 101,
+      "product_id": 1015,
+      "product_name": "Modern Coffee Table",
+      "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1015.jpg",
+      "price": "499.00",
+      "special_price": "449.00",
+      "rating": "4.8",
+      "stock": 30,
+      "seller_id": 115,
+      "seller_name": "Premium Furniture Store",
+      "created_at": "2024-01-12 00:00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 101,
+      "product_id": 1020,
+      "product_name": "Designer Sofa Set",
+      "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1020.jpg",
+      "price": "1499.00",
+      "special_price": "1299.00",
+      "rating": "4.9",
+      "stock": 15,
+      "seller_id": 115,
+      "seller_name": "Premium Furniture Store",
+      "created_at": "2024-01-14 00:00:00"
+    }
+  ]
+}
+

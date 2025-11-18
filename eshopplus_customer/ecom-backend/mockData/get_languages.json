@@ -1,0 +1,28 @@
+{
+  "error": false,
+  "message": "Languages retrieved successfully",
+  "language_message_key": "languages_retrieved_successfully",
+  "data": [
+    {
+      "id": 1,
+      "language": "english",
+      "code": "en",
+      "native_language": null,
+      "is_rtl": 0
+    },
+    {
+      "id": 8,
+      "language": "hindi",
+      "code": "hn",
+      "native_language": null,
+      "is_rtl": 0
+    },
+    {
+      "id": 9,
+      "language": "arabic",
+      "code": "ar",
+      "native_language": null,
+      "is_rtl": 1
+    }
+  ]
+}

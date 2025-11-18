@@ -1,0 +1,729 @@
+{
+  "error": false,
+  "message": "Sections retrieved successfully.",
+  "language_message_key": "sections_retrieved_successfully",
+  "min_price": "0",
+  "max_price": "0",
+  "data": [
+    {
+      "id": 78,
+      "store_id": 38,
+      "title": "Exclusive Sale – Shop & Save Big!",
+      "short_description": "Limited stock – shop before it’s gone!",
+      "style": "style_2",
+      "header_style": "header_style_1",
+      "product_ids": "967,968",
+      "row_order": 3,
+      "categories": "267",
+      "product_type": "new_added_products",
+      "banner_image": "https://eshop-pro.eshopweb.store/storage/media/01-24-25-eshop-plus_1-(1)-1737955177_1983.gif",
+      "background_color": "#ffffff",
+      "updated_at": "2025-05-09 08:36:51",
+      "created_at": "2025-01-27 05:39:14",
+      "total": "2",
+      "filters": [
+        {
+          "attribute_name": "Color",
+          "attribute_values": [
+            "White"
+          ],
+          "attribute_values_id": [
+            "194"
+          ]
+        },
+        {
+          "attribute_name": "Seat Capacity",
+          "attribute_values": [
+            "2 Seats",
+            "3 Seats",
+            "4 Seats"
+          ],
+          "attribute_values_id": [
+            "208",
+            "209",
+            "210"
+          ]
+        }
+      ],
+      "product_details": [
+        {
+          "id": 968,
+          "store_id": 38,
+          "product_identity": null,
+          "category_id": 267,
+          "seller_id": 115,
+          "tax": "16",
+          "row_order": 0,
+          "type": "variable_product",
+          "stock_type": null,
+          "name": "Modern Linen Sofa with a Touch of Mid-Century Flair",
+          "short_description": "Add timeless charm to your living space with the Modern Linen Sofa, combining mid-century aesthetics with luxurious comfort.",
+          "slug": "modern-linen-sofa-with-a-touch-of-mid-century-flair",
+          "indicator": "0",
+          "cod_allowed": 0,
+          "download_allowed": 0,
+          "download_type": "",
+          "download_link": "",
+          "minimum_order_quantity": 1,
+          "quantity_step_size": 1,
+          "total_allowed_quantity": 2,
+          "is_prices_inclusive_tax": 0,
+          "is_returnable": 0,
+          "is_cancelable": 0,
+          "cancelable_till": "",
+          "is_attachment_required": 0,
+          "image": "https://eshop-pro.eshopweb.store/storage/media/modern-linen-sofa-with-a-touch-of-mid-century-flair-1737800652_7591.jpg",
+          "other_images": [
+            "https://eshop-pro.eshopweb.store/storage/media/modern-linen-sofa-with-a-touch-of-mid-century-flair1-1737800652_1490.jpg"
+          ],
+          "video_type": "",
+          "video": "",
+          "tags": [
+            "Modern Sofa",
+            "Linen Upholstery",
+            "Mid-Century Furniture",
+            "Living Room Sofa",
+            "Comfortable Seating",
+            "Home Decor"
+          ],
+          "warranty_period": "",
+          "guarantee_period": "",
+          "made_in": "",
+          "hsn_code": "94016100",
+          "brand": "116",
+          "sku": "",
+          "stock": "",
+          "availability": "",
+          "rating": "0.00",
+          "no_of_ratings": 0,
+          "description": "<h3><strong>Key Features</strong>:</h3>\r\n<ul>\r\n<li><strong>Material</strong>: Premium linen fabric with high-density foam cushions</li>\r\n<li><strong>Frame</strong>: Solid wood with a walnut finish for a mid-century look</li>\r\n<li><strong>Design</strong>: Button-tufted backrest and slightly flared armrests</li>\r\n<li><strong>Comfort</strong>: Ergonomic cushioning with breathable fabric</li>\r\n<li><strong>Assembly</strong>: Easy assembly with tools included</li>\r\n</ul>",
+          "extra_description": "<p>The Modern Linen Sofa is a perfect blend of mid-century elegance and contemporary functionality. Upholstered in premium linen fabric, this sofa offers a soft yet durable seating experience. Its sturdy wooden frame and tapered legs provide excellent stability while enhancing its retro appeal. Ideal for small apartments or spacious living rooms, the sofa&rsquo;s minimalist design, and neutral tones make it a versatile piece for any d&eacute;cor style.</p>\r\n<p>With its plush cushions and ergonomic design, this sofa ensures hours of comfort for family gatherings, movie nights, or relaxing evenings.</p>",
+          "deliverable_type": 1,
+          "deliverable_zipcodes": null,
+          "city_deliverable_type": 1,
+          "deliverable_cities": "",
+          "deliverable_zones": "",
+          "pickup_location": "",
+          "status": 1,
+          "is_in_affiliate": 0,
+          "minimum_free_delivery_order_qty": 0,
+          "delivery_charges": 0,
+          "created_at": "2025-01-25T04:54:39.000000Z",
+          "updated_at": "2025-05-09T03:58:51.000000Z",
+          "total_sale": "63",
+          "calculated_price": 926.84,
+          "translated_name": {
+            "en": "Modern Linen Sofa with a Touch of Mid-Century Flair",
+            "hn": "मॉडर्न लिनन सोफा, मिड-सेंचुरी फ्लेयर के स्पर्श के साथ",
+            "ar": "أريكة كتان عصرية بلمسة من طراز منتصف القرن"
+          },
+          "translated_short_description": {
+            "en": "Add timeless charm to your living space with the Modern Linen Sofa, combining mid-century aesthetics with luxurious comfort.",
+            "hn": "मॉडर्न लिनन सोफा के साथ अपने लिविंग स्पेस में समयहीन आकर्षण जोड़ें, जो मिड-सेंचुरी सौंदर्यशास्त्र को शानदार आराम के साथ जोड़ता है।",
+            "ar": "أضف سحرًا خالدًا إلى مساحة المعيشة الخاصة بك مع أريكة الكتان العصرية، التي تجمع بين الجماليات الكلاسيكية لمنتصف القرن والراحة الفاخرة."
+          },
+          "attributes": [
+            {
+              "ids": "208,209",
+              "value": "2 Seats, 3 Seats",
+              "attr_name": "Seat Capacity",
+              "attr_id": 72,
+              "name": "Seat Capacity"
+            }
+          ],
+          "total_stock": "",
+          "variants": [
+            {
+              "id": 1526,
+              "product_id": 968,
+              "attribute_value_ids": "208",
+              "attribute_set": "",
+              "price": "942.82",
+              "special_price": "0",
+              "sku": "",
+              "stock": "",
+              "weight": 20,
+              "height": 0,
+              "breadth": 0,
+              "length": 0,
+              "images": [],
+              "availability": 0,
+              "status": 1,
+              "created_at": "2025-01-25T04:56:01.000000Z",
+              "updated_at": "2025-01-25T04:56:01.000000Z",
+              "variant_ids": "208",
+              "attr_name": "Seat Capacity",
+              "variant_values": "2 Seats",
+              "swatche_type": "0",
+              "swatche_value_raw": "#000000",
+              "swatche_value": "0",
+              "product_name": "Modern Linen Sofa with a Touch of Mid-Century Flair",
+              "stock_type": "",
+              "images_md": [],
+              "images_sm": [],
+              "variant_relative_path": [],
+              "product_image": "https://eshop-pro.eshopweb.store/storage/media/modern-linen-sofa-with-a-touch-of-mid-century-flair-1737800652_7591.jpg",
+              "currency_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "942.82"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "1,885.64"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "864.44"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "323,387.26"
+                }
+              },
+              "currency_special_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "0.00"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "0.00"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "0.00"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "0.00"
+                }
+              },
+              "cart_count": "0"
+            },
+            {
+              "id": 1527,
+              "product_id": 968,
+              "attribute_value_ids": "209",
+              "attribute_set": "",
+              "price": "1296.82",
+              "special_price": "0",
+              "sku": "",
+              "stock": "",
+              "weight": 25,
+              "height": 0,
+              "breadth": 0,
+              "length": 0,
+              "images": [],
+              "availability": 0,
+              "status": 1,
+              "created_at": "2025-01-25T04:56:01.000000Z",
+              "updated_at": "2025-01-25T04:56:01.000000Z",
+              "variant_ids": "209",
+              "attr_name": "Seat Capacity",
+              "variant_values": "3 Seats",
+              "swatche_type": "0",
+              "swatche_value_raw": "#000000",
+              "swatche_value": "0",
+              "product_name": "Modern Linen Sofa with a Touch of Mid-Century Flair",
+              "stock_type": "",
+              "images_md": [],
+              "images_sm": [],
+              "variant_relative_path": [],
+              "product_image": "https://eshop-pro.eshopweb.store/storage/media/modern-linen-sofa-with-a-touch-of-mid-century-flair-1737800652_7591.jpg",
+              "currency_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "1,296.82"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "2,593.64"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "1,189.02"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "444,809.26"
+                }
+              },
+              "currency_special_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "0.00"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "0.00"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "0.00"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "0.00"
+                }
+              },
+              "cart_count": "0"
+            }
+          ],
+          "min_max_price": {
+            "min_price": 942.8199999999999,
+            "max_price": 1296.82,
+            "special_min_price": 0,
+            "special_max_price": 0,
+            "discount_in_percentage": 100
+          },
+          "tax_id": "16",
+          "tax_names": "GST",
+          "tax_percentage": "18",
+          "attribute_value_ids": "208,209",
+          "new_arrival": false,
+          "best_seller": false,
+          "store_name": "Havenly",
+          "product_type": "variable_product",
+          "attr_value_ids": "208,209",
+          "seller_rating": "0.0",
+          "store_description": "Your one-stop destination for modern appliances and stylish furniture, crafted to elevate comfort and design in every corner of your home.",
+          "seller_profile": "https://eshop-pro.eshopweb.store/havenly-1737099634_8024.png",
+          "seller_no_of_ratings": 0,
+          "seller_name": "Havenly",
+          "product_details": null,
+          "brand_slug": "maxihome",
+          "category_slug": "sofa",
+          "relative_path": "/media/modern-linen-sofa-with-a-touch-of-mid-century-flair-1737800652_7591.jpg",
+          "video_relative_path": "",
+          "seller_slug": "havenly",
+          "custom_fields": [],
+          "deliverable_zones_ids": "",
+          "category_name": "Sofa",
+          "brand_name": "MaxiHome",
+          "is_deliverable": false,
+          "is_purchased": false,
+          "is_favorite": 0,
+          "variant_attributes": []
+        },
+        {
+          "id": 967,
+          "store_id": 38,
+          "product_identity": null,
+          "category_id": 267,
+          "seller_id": 115,
+          "tax": "16",
+          "row_order": 0,
+          "type": "variable_product",
+          "stock_type": null,
+          "name": "LuxoLounge Teak Sofa - Perfect for Indoor & Outdoor Living",
+          "short_description": "Experience timeless comfort with the LuxoLounge Teak Sofa, crafted for indoor elegance or outdoor relaxation.",
+          "slug": "luxolounge-teak-sofa-perfect-for-indoor-outdoor-living",
+          "indicator": "0",
+          "cod_allowed": 0,
+          "download_allowed": 0,
+          "download_type": "",
+          "download_link": "",
+          "minimum_order_quantity": 1,
+          "quantity_step_size": 1,
+          "total_allowed_quantity": 4,
+          "is_prices_inclusive_tax": 1,
+          "is_returnable": 0,
+          "is_cancelable": 1,
+          "cancelable_till": "processed",
+          "is_attachment_required": 0,
+          "image": "https://eshop-pro.eshopweb.store/storage/media/teak-sofa-for-indooroutdoor-living-1737781813_1511.jpg",
+          "other_images": [
+            "https://eshop-pro.eshopweb.store/storage/media/teak-sofa-for-indooroutdoor-living1-1737781813_4123.jpg"
+          ],
+          "video_type": "",
+          "video": "",
+          "tags": [
+            "Teak Sofa",
+            "Indoor Furniture",
+            "Outdoor Furniture",
+            "Modern Sofa",
+            "Sustainable Design",
+            "Durable Wood Furniture"
+          ],
+          "warranty_period": "",
+          "guarantee_period": "6 Months",
+          "made_in": "India",
+          "hsn_code": "94016100",
+          "brand": "116",
+          "sku": "",
+          "stock": "",
+          "availability": "",
+          "rating": "0.00",
+          "no_of_ratings": 0,
+          "description": "<p>The LuxoLounge Teak Sofa blends contemporary design with natural durability, making it an excellent addition to both indoor and outdoor spaces. Constructed from premium-grade teak wood, this sofa showcases a sleek yet robust frame that resists weathering and aging. The plush, removable cushions provide unparalleled comfort while being easy to clean. Its minimalist design ensures it complements a variety of interior or exterior aesthetics, making it perfect for living rooms, patios, or even poolside lounging.</p>\r\n<h3><strong>Key Features</strong>:</h3>\r\n<ul>\r\n<li><strong>Material</strong>: High-quality teak wood with a natural finish</li>\r\n<li><strong>Cushions</strong>: Removable and washable cushions in beige with waterproof fabric</li>\r\n<li><strong>Usage</strong>: Ideal for indoor and outdoor use</li>\r\n<li><strong>Durability</strong>: Weather-resistant and termite-proof wood</li>\r\n<li><strong>Design</strong>: Minimalist and eco-friendly aesthetic</li>\r\n</ul>",
+          "extra_description": "",
+          "deliverable_type": 1,
+          "deliverable_zipcodes": null,
+          "city_deliverable_type": 1,
+          "deliverable_cities": "",
+          "deliverable_zones": "",
+          "pickup_location": "",
+          "status": 1,
+          "is_in_affiliate": 0,
+          "minimum_free_delivery_order_qty": 1,
+          "delivery_charges": 0,
+          "created_at": "2025-01-24T23:40:45.000000Z",
+          "updated_at": "2025-05-09T03:58:51.000000Z",
+          "total_sale": "49",
+          "calculated_price": 899.99,
+          "translated_name": {
+            "en": "LuxoLounge Teak Sofa - Perfect for Indoor & Outdoor Living",
+            "hn": "लक्ज़ोलाउंज टीक सोफा - इनडोर और आउटडोर लिविंग के लिए परफेक्ट",
+            "ar": "أريكة لوكسولونج تيك - مثالية للمعيشة الداخلية والخارجية"
+          },
+          "translated_short_description": {
+            "en": "Experience timeless comfort with the LuxoLounge Teak Sofa, crafted for indoor elegance or outdoor relaxation.",
+            "hn": "लक्ज़ोलाउंज टीक सोफा के साथ अनुभव करें समयहीन आराम, जिसे इनडोर की शान और आउटडोर की सुकून भरी विश्रांति के लिए तैयार किया गया है।",
+            "ar": "استمتع براحة خالدة مع أريكة لوكسولونج تيك، المصممة للأناقة الداخلية أو الاسترخاء الخارجي."
+          },
+          "attributes": [
+            {
+              "ids": "194",
+              "value": "White",
+              "attr_name": "Color",
+              "attr_id": 69,
+              "name": "Color"
+            },
+            {
+              "ids": "208,209,210",
+              "value": "2 Seats, 3 Seats, 4 Seats",
+              "attr_name": "Seat Capacity",
+              "attr_id": 72,
+              "name": "Seat Capacity"
+            }
+          ],
+          "total_stock": "",
+          "variants": [
+            {
+              "id": 1521,
+              "product_id": 967,
+              "attribute_value_ids": "208",
+              "attribute_set": "",
+              "price": "1099",
+              "special_price": "899.99",
+              "sku": "",
+              "stock": "",
+              "weight": 33,
+              "height": 0,
+              "breadth": 0,
+              "length": 0,
+              "images": [],
+              "availability": 0,
+              "status": 1,
+              "created_at": "2025-01-24T23:43:26.000000Z",
+              "updated_at": "2025-01-24T23:43:26.000000Z",
+              "variant_ids": "208",
+              "attr_name": "Seat Capacity",
+              "variant_values": "2 Seats",
+              "swatche_type": "0",
+              "swatche_value_raw": "#000000",
+              "swatche_value": "0",
+              "product_name": "LuxoLounge Teak Sofa - Perfect for Indoor & Outdoor Living",
+              "stock_type": "",
+              "images_md": [],
+              "images_sm": [],
+              "variant_relative_path": [],
+              "product_image": "https://eshop-pro.eshopweb.store/storage/media/teak-sofa-for-indooroutdoor-living-1737781813_1511.jpg",
+              "currency_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "1,099.00"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "2,198.00"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "1,007.64"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "376,957.00"
+                }
+              },
+              "currency_special_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "899.99"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "1,799.98"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "825.17"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "308,696.57"
+                }
+              },
+              "cart_count": "0"
+            },
+            {
+              "id": 1522,
+              "product_id": 967,
+              "attribute_value_ids": "209",
+              "attribute_set": "",
+              "price": "1299",
+              "special_price": "1199",
+              "sku": "",
+              "stock": "",
+              "weight": 44,
+              "height": 0,
+              "breadth": 0,
+              "length": 0,
+              "images": [],
+              "availability": 0,
+              "status": 1,
+              "created_at": "2025-01-24T23:43:26.000000Z",
+              "updated_at": "2025-01-24T23:43:26.000000Z",
+              "variant_ids": "209",
+              "attr_name": "Seat Capacity",
+              "variant_values": "3 Seats",
+              "swatche_type": "0",
+              "swatche_value_raw": "#000000",
+              "swatche_value": "0",
+              "product_name": "LuxoLounge Teak Sofa - Perfect for Indoor & Outdoor Living",
+              "stock_type": "",
+              "images_md": [],
+              "images_sm": [],
+              "variant_relative_path": [],
+              "product_image": "https://eshop-pro.eshopweb.store/storage/media/teak-sofa-for-indooroutdoor-living-1737781813_1511.jpg",
+              "currency_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "1,299.00"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "2,598.00"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "1,191.01"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "445,557.00"
+                }
+              },
+              "currency_special_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "1,199.00"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "2,398.00"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "1,099.33"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "411,257.00"
+                }
+              },
+              "cart_count": "0"
+            },
+            {
+              "id": 1523,
+              "product_id": 967,
+              "attribute_value_ids": "210",
+              "attribute_set": "",
+              "price": "1698.96",
+              "special_price": "1548",
+              "sku": "",
+              "stock": "",
+              "weight": 47.81,
+              "height": 0,
+              "breadth": 0,
+              "length": 0,
+              "images": [],
+              "availability": 0,
+              "status": 1,
+              "created_at": "2025-01-24T23:43:26.000000Z",
+              "updated_at": "2025-01-24T23:43:26.000000Z",
+              "variant_ids": "210",
+              "attr_name": "Seat Capacity",
+              "variant_values": "4 Seats",
+              "swatche_type": "0",
+              "swatche_value_raw": "#000000",
+              "swatche_value": "0",
+              "product_name": "LuxoLounge Teak Sofa - Perfect for Indoor & Outdoor Living",
+              "stock_type": "",
+              "images_md": [],
+              "images_sm": [],
+              "variant_relative_path": [],
+              "product_image": "https://eshop-pro.eshopweb.store/storage/media/teak-sofa-for-indooroutdoor-living-1737781813_1511.jpg",
+              "currency_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "1,698.96"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "3,397.92"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "1,557.73"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "582,743.28"
+                }
+              },
+              "currency_special_price_data": {
+                "USD": {
+                  "currency_code": "USD",
+                  "symbol": "$",
+                  "exchange_rate": "1.00",
+                  "amount": "1,548.00"
+                },
+                "INR": {
+                  "currency_code": "INR",
+                  "symbol": "₹",
+                  "exchange_rate": "2.00",
+                  "amount": "3,096.00"
+                },
+                "EUR": {
+                  "currency_code": "EUR",
+                  "symbol": "€",
+                  "exchange_rate": "0.92",
+                  "amount": "1,419.32"
+                },
+                "A": {
+                  "currency_code": "A",
+                  "symbol": "A",
+                  "exchange_rate": "343.00",
+                  "amount": "530,964.00"
+                }
+              },
+              "cart_count": "0"
+            }
+          ],
+          "min_max_price": {
+            "min_price": 1099,
+            "max_price": 1698.96,
+            "special_min_price": 899.99,
+            "special_max_price": 1548,
+            "discount_in_percentage": 18
+          },
+          "tax_id": "16",
+          "tax_names": "GST",
+          "tax_percentage": "18",
+          "attribute_value_ids": "194,208,209,210",
+          "new_arrival": false,
+          "best_seller": false,
+          "store_name": "Havenly",
+          "product_type": "variable_product",
+          "attr_value_ids": "194,208,209,210",
+          "seller_rating": "0.0",
+          "store_description": "Your one-stop destination for modern appliances and stylish furniture, crafted to elevate comfort and design in every corner of your home.",
+          "seller_profile": "https://eshop-pro.eshopweb.store/havenly-1737099634_8024.png",
+          "seller_no_of_ratings": 0,
+          "seller_name": "Havenly",
+          "product_details": null,
+          "brand_slug": "maxihome",
+          "category_slug": "sofa",
+          "relative_path": "/media/teak-sofa-for-indooroutdoor-living-1737781813_1511.jpg",
+          "video_relative_path": "",
+          "seller_slug": "havenly",
+          "custom_fields": [],
+          "deliverable_zones_ids": "",
+          "category_name": "Sofa",
+          "brand_name": "MaxiHome",
+          "is_deliverable": false,
+          "is_purchased": false,
+          "is_favorite": 0,
+          "variant_attributes": []
+        }
+      ],
+      "category_ids": "267",
+      "brand_ids": ""
+    }
+  ]
+}

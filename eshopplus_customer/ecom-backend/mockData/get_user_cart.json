@@ -1,0 +1,44 @@
+{
+  "error": false,
+  "message": "Cart retrieved successfully",
+  "language_message_key": "cart_retrieved_successfully",
+  "total": "2",
+  "data": [
+    {
+      "id": 1,
+      "user_id": 101,
+      "product_id": 1012,
+      "product_variant_id": 2045,
+      "qty": 2,
+      "is_saved_for_later": 0,
+      "product_name": "Velvet Armchair with Wood Legs",
+      "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1012.jpg",
+      "variant_price": "299.00",
+      "special_price": "249.00",
+      "tax_percentage": "5",
+      "stock": 50,
+      "seller_id": 115,
+      "seller_name": "Premium Furniture Store"
+    },
+    {
+      "id": 2,
+      "user_id": 101,
+      "product_id": 1015,
+      "product_variant_id": 2048,
+      "qty": 1,
+      "is_saved_for_later": 0,
+      "product_name": "Modern Coffee Table",
+      "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1015.jpg",
+      "variant_price": "499.00",
+      "special_price": "449.00",
+      "tax_percentage": "5",
+      "stock": 30,
+      "seller_id": 115,
+      "seller_name": "Premium Furniture Store"
+    }
+  ],
+  "sub_total": "947.00",
+  "tax_amount": "47.35",
+  "total_amount": "994.35"
+}
+

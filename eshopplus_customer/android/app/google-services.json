@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349684596206",
+    "project_id": "advtez-eshop-e5195",
+    "storage_bucket": "advtez-eshop-e5195.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349684596206:android:879ebe55a5223fc21fe2ff",
+        "android_client_info": {
+          "package_name": "com.wrteam.eshop.pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_e76n0Lt2jaXGQqskSI-vDMMXEEdtEgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

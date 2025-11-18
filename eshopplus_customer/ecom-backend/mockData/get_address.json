@@ -1,0 +1,43 @@
+{
+  "error": false,
+  "message": "Addresses retrieved successfully",
+  "language_message_key": "addresses_retrieved_successfully",
+  "total": "2",
+  "data": [
+    {
+      "id": 1,
+      "user_id": 101,
+      "name": "Mock User",
+      "mobile": "9999999999",
+      "address": "123 Main Street, Apartment 4B",
+      "city": "Mumbai",
+      "city_id": 1,
+      "area": "Andheri West",
+      "pincode": "400058",
+      "state": "Maharashtra",
+      "country": "India",
+      "is_default": 1,
+      "latitude": "19.1136",
+      "longitude": "72.8697",
+      "created_at": "2024-01-01 00:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 101,
+      "name": "Mock User",
+      "mobile": "9999999999",
+      "address": "456 Park Avenue, Building C",
+      "city": "Mumbai",
+      "city_id": 1,
+      "area": "Bandra East",
+      "pincode": "400051",
+      "state": "Maharashtra",
+      "country": "India",
+      "is_default": 0,
+      "latitude": "19.0596",
+      "longitude": "72.8295",
+      "created_at": "2024-01-05 00:00:00"
+    }
+  ]
+}
+

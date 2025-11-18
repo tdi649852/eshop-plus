@@ -1,0 +1,5 @@
+{
+  "error": true,
+  "message": "Please provide a valid token",
+  "code": 401
+}

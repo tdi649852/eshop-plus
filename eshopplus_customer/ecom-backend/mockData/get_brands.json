@@ -1,0 +1,80 @@
+{
+  "error": false,
+  "message": "Brands Retrived Successfully",
+  "language_message_key": "brands_retrived_successfully",
+  "total": 9,
+  "data": [
+    {
+      "id": 115,
+      "store_id": 38,
+      "name": "SmartCore",
+      "slug": "smartcore",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__the-style-is-candid-image-photography-with-natural__84108-1737030932_5712.jpg",
+      "status": 1
+    },
+    {
+      "id": 116,
+      "store_id": 38,
+      "name": "MaxiHome",
+      "slug": "maxihome",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__the-style-is-candid-image-photography-with-natural__84107-1737030932_1821.jpg",
+      "status": 1
+    },
+    {
+      "id": 117,
+      "store_id": 38,
+      "name": "EcoWatt",
+      "slug": "ecowatt",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__the-style-is-candid-image-photography-with-natural__84106-1737030932_1841.jpg",
+      "status": 1
+    },
+    {
+      "id": 118,
+      "store_id": 38,
+      "name": "PowerFlow",
+      "slug": "powerflow",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__the-style-is-candid-image-photography-with-natural__84105-1737030932_6770.jpg",
+      "status": 1
+    },
+    {
+      "id": 171,
+      "store_id": 38,
+      "name": "InnovaTech",
+      "slug": "innovatech-logo",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__design-a-sleek-and-modern-innovatech-logo-with-a-b__250-1738064769_1908.png",
+      "status": 1
+    },
+    {
+      "id": 172,
+      "store_id": 38,
+      "name": "LuxeCraft",
+      "slug": "luxecraft",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__the-style-is-candid-image-photography-with-natural__251-1738067481_1617.jpg",
+      "status": 1
+    },
+    {
+      "id": 173,
+      "store_id": 38,
+      "name": "TimberCraft",
+      "slug": "timbercraft-1",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/freepik__the-style-is-candid-image-photography-with-natural__252-1738066966_4787.jpg",
+      "status": 1
+    },
+    {
+      "id": 178,
+      "store_id": 38,
+      "name": "Nothing",
+      "slug": "nothing",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/4-home-1736408966_8991.png",
+      "status": 1
+    },
+    {
+      "id": 180,
+      "store_id": 38,
+      "name": "Levi's",
+      "slug": "levis",
+      "image": "https://eshop-pro.eshopweb.store/storage/media/brands_4-1760101482_9812.png",
+      "status": 1
+    }
+  ]
+}

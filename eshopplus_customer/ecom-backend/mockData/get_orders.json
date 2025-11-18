@@ -1,0 +1,72 @@
+{
+  "error": false,
+  "message": "Orders retrieved successfully",
+  "language_message_key": "orders_retrieved_successfully",
+  "total": "3",
+  "data": [
+    {
+      "id": 1001,
+      "user_id": 101,
+      "order_number": "ORD-2024-001",
+      "total": "994.35",
+      "delivery_charge": "50.00",
+      "tax_amount": "47.35",
+      "final_total": "1044.35",
+      "payment_method": "COD",
+      "status": "delivered",
+      "created_at": "2024-01-15 10:30:00",
+      "items": [
+        {
+          "id": 1,
+          "product_name": "Velvet Armchair with Wood Legs",
+          "quantity": 2,
+          "price": "249.00",
+          "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1012.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "user_id": 101,
+      "order_number": "ORD-2024-002",
+      "total": "1299.00",
+      "delivery_charge": "0.00",
+      "tax_amount": "64.95",
+      "final_total": "1363.95",
+      "payment_method": "Online",
+      "status": "processing",
+      "created_at": "2024-01-20 14:45:00",
+      "items": [
+        {
+          "id": 2,
+          "product_name": "Designer Sofa Set",
+          "quantity": 1,
+          "price": "1299.00",
+          "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1020.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "user_id": 101,
+      "order_number": "ORD-2024-003",
+      "total": "449.00",
+      "delivery_charge": "50.00",
+      "tax_amount": "22.45",
+      "final_total": "521.45",
+      "payment_method": "COD",
+      "status": "pending",
+      "created_at": "2024-01-22 09:15:00",
+      "items": [
+        {
+          "id": 3,
+          "product_name": "Modern Coffee Table",
+          "quantity": 1,
+          "price": "449.00",
+          "product_image": "https://eshop-pro.eshopweb.store/storage/product_images/1015.jpg"
+        }
+      ]
+    }
+  ]
+}
+

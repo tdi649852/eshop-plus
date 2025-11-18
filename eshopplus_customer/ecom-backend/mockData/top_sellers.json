@@ -1,0 +1,39 @@
+{
+  "error": false,
+  "message": "Sellers retrieved successfully",
+  "language_message_key": "sellers_retrieved_successfully",
+  "data": [
+    {
+      "seller_id": 91,
+      "total_commission": 4659.6112,
+      "store_logo": "https://eshop-pro.eshopweb.store/storage/sellers/logo-1733221549_8104.jpg",
+      "store_name": "StyleMart",
+      "store_description": "Your marketplace for chic and trendy fashion.",
+      "user_id": 358,
+      "rating": 0,
+      "no_of_ratings": 0,
+      "store_thumbnail": "https://eshop-pro.eshopweb.store/storage/sellers/banner-1733221549_3050.jpg",
+      "seller_name": "StyleMart",
+      "address": "78 Bapu Bazaar, Ahmedabad, Gujarat, India",
+      "total_sales": 4697.5599999999995,
+      "total_products": 3,
+      "is_favorite": 0
+    },
+    {
+      "seller_id": 115,
+      "total_commission": 1908.46,
+      "store_logo": "https://eshop-pro.eshopweb.store/storage/sellers/havenly-1737099634_8024.png",
+      "store_name": "Havenly",
+      "store_description": "Your one-stop destination for modern appliances and stylish furniture, crafted to elevate comfort and design in every corner of your home.",
+      "user_id": 416,
+      "rating": 0,
+      "no_of_ratings": 0,
+      "store_thumbnail": "https://eshop-pro.eshopweb.store/storage/sellers/living-room-interior-design-zoom-background-1737099919_7576.jpg",
+      "seller_name": "Havenly",
+      "address": "4055 Dola Mine Road Raleigh, NC 27601",
+      "total_sales": 1908.46,
+      "total_products": 55,
+      "is_favorite": 0
+    }
+  ]
+}
