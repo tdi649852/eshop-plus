@@ -11,6 +11,12 @@ Order.init(
       primaryKey: true,
       defaultValue: DataTypes.UUIDV4,
     },
+    orderNumber: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      unique: true,
+      field: 'order_number',
+    },
     userId: {
       type: DataTypes.UUID,
       allowNull: false,
@@ -60,6 +66,31 @@ Order.init(
     total: {
       type: DataTypes.DECIMAL(10, 2),
       defaultValue: 0,
+    },
+    commissionPercentage: {
+      type: DataTypes.DECIMAL(5, 2),
+      defaultValue: 5.00,
+      field: 'commission_percentage',
+    },
+    commissionAmount: {
+      type: DataTypes.DECIMAL(10, 2),
+      defaultValue: 0.00,
+      field: 'commission_amount',
+    },
+    returnRequested: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+      field: 'return_requested',
+    },
+    returnReason: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'return_reason',
+    },
+    returnStatus: {
+      type: DataTypes.ENUM('none', 'requested', 'approved', 'rejected', 'completed'),
+      defaultValue: 'none',
+      field: 'return_status',
     },
     notes: {
       type: DataTypes.TEXT,

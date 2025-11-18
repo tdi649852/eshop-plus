@@ -39,6 +39,15 @@ User.init(
       allowNull: true,
       unique: true,
     },
+    dateOfBirth: {
+      type: DataTypes.DATEONLY,
+      allowNull: true,
+      field: 'date_of_birth',
+    },
+    gender: {
+      type: DataTypes.ENUM('male', 'female', 'other'),
+      allowNull: true,
+    },
     password: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -55,6 +64,11 @@ User.init(
       type: DataTypes.INTEGER.UNSIGNED,
       allowNull: true,
       field: 'default_city_id',
+    },
+    walletBalance: {
+      type: DataTypes.DECIMAL(10, 2),
+      defaultValue: 0.00,
+      field: 'wallet_balance',
     },
     isEmailVerified: {
       type: DataTypes.BOOLEAN,

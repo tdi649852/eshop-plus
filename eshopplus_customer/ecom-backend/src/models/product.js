@@ -29,6 +29,16 @@ Product.init(
       type: DataTypes.STRING(180),
       allowNull: false,
     },
+    nameHi: {
+      type: DataTypes.STRING(180),
+      allowNull: true,
+      field: 'name_hi',
+    },
+    nameAr: {
+      type: DataTypes.STRING(180),
+      allowNull: true,
+      field: 'name_ar',
+    },
     slug: {
       type: DataTypes.STRING(200),
       allowNull: false,
@@ -39,9 +49,29 @@ Product.init(
       allowNull: true,
       unique: true,
     },
+    articleNumber: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'article_number',
+    },
+    brandId: {
+      type: DataTypes.INTEGER.UNSIGNED,
+      allowNull: true,
+      field: 'brand_id',
+    },
     description: {
       type: DataTypes.TEXT,
       allowNull: true,
+    },
+    descriptionHi: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'description_hi',
+    },
+    descriptionAr: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'description_ar',
     },
     unit: {
       type: DataTypes.STRING(20),
@@ -50,6 +80,10 @@ Product.init(
     basePrice: {
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
+    },
+    mrp: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: true,
     },
     salePrice: {
       type: DataTypes.DECIMAL(10, 2),
@@ -78,6 +112,10 @@ Product.init(
     discountValue: {
       type: DataTypes.DECIMAL(10, 2),
       allowNull: true,
+    },
+    status: {
+      type: DataTypes.ENUM('draft', 'published', 'out_of_stock', 'discontinued'),
+      defaultValue: 'draft',
     },
   },
   {

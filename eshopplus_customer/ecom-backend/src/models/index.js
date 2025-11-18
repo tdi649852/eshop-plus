@@ -16,6 +16,23 @@ const OrderItem = require('./orderItem');
 const OrderStatusHistory = require('./orderStatusHistory');
 const RefreshToken = require('./refreshToken');
 
+// New Advtez models
+const Branch = require('./branch');
+const Brand = require('./brand');
+const Discount = require('./discount');
+const HotDeal = require('./hotDeal');
+const BankOffer = require('./bankOffer');
+const WalletTransaction = require('./walletTransaction');
+const WithdrawalRequest = require('./withdrawalRequest');
+const Advertisement = require('./advertisement');
+const Banner = require('./banner');
+const RetailerFollower = require('./retailerFollower');
+const WishlistRetailer = require('./wishlistRetailer');
+const OrderParcel = require('./orderParcel');
+const Notification = require('./notification');
+const SupportTicket = require('./supportTicket');
+const SupportTicketMessage = require('./supportTicketMessage');
+
 // Associations
 City.hasMany(Area, { foreignKey: 'cityId', as: 'areas' });
 Area.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
@@ -85,6 +102,58 @@ OrderStatusHistory.belongsTo(Order, { foreignKey: 'orderId', as: 'order' });
 User.hasMany(RefreshToken, { foreignKey: 'userId', as: 'refreshTokens' });
 RefreshToken.belongsTo(User, { foreignKey: 'userId', as: 'user' });
 
+// New Advtez associations
+Retailer.hasMany(Branch, { foreignKey: 'retailerId', as: 'branches' });
+Branch.belongsTo(Retailer, { foreignKey: 'retailerId', as: 'retailer' });
+Branch.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
+
+Brand.belongsTo(Retailer, { foreignKey: 'retailerId', as: 'retailer' });
+Retailer.hasMany(Brand, { foreignKey: 'retailerId', as: 'brands' });
+
+Product.belongsTo(Brand, { foreignKey: 'brandId', as: 'brand' });
+Brand.hasMany(Product, { foreignKey: 'brandId', as: 'products' });
+
+Retailer.hasMany(Discount, { foreignKey: 'retailerId', as: 'discounts' });
+Discount.belongsTo(Retailer, { foreignKey: 'retailerId', as: 'retailer' });
+
+Retailer.hasMany(HotDeal, { foreignKey: 'retailerId', as: 'hotDeals' });
+HotDeal.belongsTo(Retailer, { foreignKey: 'retailerId', as: 'retailer' });
+
+Retailer.hasMany(BankOffer, { foreignKey: 'retailerId', as: 'bankOffers' });
+BankOffer.belongsTo(Retailer, { foreignKey: 'retailerId', as: 'retailer' });
+
+User.hasMany(WalletTransaction, { foreignKey: 'userId', as: 'walletTransactions' });
+WalletTransaction.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+User.hasMany(WithdrawalRequest, { foreignKey: 'userId', as: 'withdrawalRequests' });
+WithdrawalRequest.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+Retailer.hasMany(Advertisement, { foreignKey: 'retailerId', as: 'advertisements' });
+Advertisement.belongsTo(Retailer, { foreignKey: 'retailerId', as: 'retailer' });
+Advertisement.belongsTo(Category, { foreignKey: 'categoryId', as: 'category' });
+Advertisement.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
+
+Banner.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
+
+User.belongsToMany(Retailer, { through: RetailerFollower, foreignKey: 'customerId', as: 'followedRetailers' });
+Retailer.belongsToMany(User, { through: RetailerFollower, foreignKey: 'retailerId', as: 'followers' });
+
+User.belongsToMany(Retailer, { through: WishlistRetailer, foreignKey: 'userId', as: 'wishlistedRetailers' });
+Retailer.belongsToMany(User, { through: WishlistRetailer, foreignKey: 'retailerId', as: 'wishlistedBy' });
+
+Order.hasMany(OrderParcel, { foreignKey: 'orderId', as: 'parcels' });
+OrderParcel.belongsTo(Order, { foreignKey: 'orderId', as: 'order' });
+
+User.hasMany(Notification, { foreignKey: 'userId', as: 'notifications' });
+Notification.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+User.hasMany(SupportTicket, { foreignKey: 'userId', as: 'supportTickets' });
+SupportTicket.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+SupportTicket.hasMany(SupportTicketMessage, { foreignKey: 'ticketId', as: 'messages' });
+SupportTicketMessage.belongsTo(SupportTicket, { foreignKey: 'ticketId', as: 'ticket' });
+SupportTicketMessage.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
 module.exports = {
   sequelize,
   City,
@@ -103,6 +172,22 @@ module.exports = {
   OrderItem,
   OrderStatusHistory,
   RefreshToken,
+  // New Advtez models
+  Branch,
+  Brand,
+  Discount,
+  HotDeal,
+  BankOffer,
+  WalletTransaction,
+  WithdrawalRequest,
+  Advertisement,
+  Banner,
+  RetailerFollower,
+  WishlistRetailer,
+  OrderParcel,
+  Notification,
+  SupportTicket,
+  SupportTicketMessage,
 };
 
 
